@@ -1,0 +1,24 @@
+controller_manager_ns: controller_manager
+controller_list:
+  - name: /Double_arm_robot/l_arm
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - L_Joint_1
+      - L_Joint_2
+      - L_Joint_3
+      - L_Joint_4
+      - L_Joint_5
+      - L_Joint_6
+  - name: /Double_arm_robot/r_arm
+    action_ns: follow_joint_trajectory
+    default: true
+    type: FollowJointTrajectory
+    joints:
+      - R_Joint_1
+      - R_Joint_2
+      - R_Joint_3
+      - R_Joint_4
+      - R_Joint_5
+      - R_Joint_6

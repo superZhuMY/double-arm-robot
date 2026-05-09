@@ -1,0 +1,21 @@
+<launch>
+  <node name="jaka_controller_L"
+        pkg="jaka_controller_tcp"
+        type="jaka_controller_L"
+        output="screen"/>
+
+  <node name="jaka_controller_R"
+        pkg="jaka_controller_tcp"
+        type="jaka_controller_R"
+        output="screen"/>
+
+  <node name="jaka_send_read_node_zong_L"
+        pkg="jaka_controller_tcp"
+        type="jaka_send_read_node_zong_L"
+        output="screen"/>
+
+  <node name="jaka_send_read_node_zong_R"
+        pkg="jaka_controller_tcp"
+        type="jaka_send_read_node_zong_R"
+        output="screen"/>
+</launch>

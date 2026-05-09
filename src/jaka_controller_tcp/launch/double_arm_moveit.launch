@@ -1,0 +1,9 @@
+<launch>
+  <arg name="use_rviz" default="true"/>
+  <arg name="moveit_controller_manager" default="simple"/>
+
+  <include file="$(find Double_arm_robot_moveit)/launch/demo.launch">
+    <arg name="use_rviz" value="$(arg use_rviz)"/>
+    <arg name="moveit_controller_manager" value="$(arg moveit_controller_manager)"/>
+  </include>
+</launch>

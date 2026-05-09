@@ -1,0 +1,7 @@
+<launch>
+  <node name="dual_arm_manual_demo"
+        pkg="moveit_exe"
+        type="xxxcopy.py"
+        output="screen"/>
+</launch>
+

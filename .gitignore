@@ -1,0 +1,7 @@
+build/
+devel/
+install/
+logs/
+runtime_logs/
+*.pyc
+__pycache__/
